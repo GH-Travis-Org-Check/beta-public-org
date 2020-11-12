@@ -27,7 +27,8 @@ jobs:
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
-    - os: windows
+    - os: linux
+      dist: xenial
       language: python
       arch: amd64
       script:
@@ -50,7 +51,8 @@ jobs:
       arch: amd64
       script:
         - python hello_world.py
-    - os: windows
+    - os: linux
+      dist: xenial
       language: java
       arch: amd64
       script:
