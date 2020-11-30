@@ -124,8 +124,5 @@ jobs:
         - g++ hello_world.cpp -o hello_world
         - ./hello_world
     - os: freebsd
-      language: cpp
-      arch: amd64
       script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
+        - echo "Hello !!"
