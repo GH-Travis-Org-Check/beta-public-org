@@ -6,12 +6,12 @@ jobs:
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
-    - os: freebsd
-      language: c
-      arch: amd64
-      script:
-        - clang -coverage -O0 hello_world.c -o hello_world
-        - ./hello_world
+#     - os: freebsd
+#       language: c
+#       arch: amd64
+#       script:
+#         - clang -coverage -O0 hello_world.c -o hello_world
+#         - ./hello_world
     - os: linux
       language: c
       dist: xenial
@@ -39,11 +39,11 @@ jobs:
       arch: amd64
       script:
         - python hello_world.py
-    - os: freebsd
-      language: python
-      arch: amd64
-      script:
-        - python hello_world.py
+#     - os: freebsd
+#       language: python
+#       arch: amd64
+#       script:
+#         - python hello_world.py
     - os: linux
       language: python
       dist: xenial
@@ -76,12 +76,12 @@ jobs:
       script:
         - javac hello_world.java
         - java HelloWorld
-    - os: freebsd
-      language: java
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
+#     - os: freebsd
+#       language: java
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
     - os: linux
       language: java
       dist: bionic
