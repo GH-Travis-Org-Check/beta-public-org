@@ -33,93 +33,93 @@ jobs:
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
-    - os: linux
-      dist: xenial
-      language: python
-      arch: amd64
-      script:
-        - python hello_world.py
-    - os: freebsd
-      language: python
-      arch: amd64
-      script:
-        - python hello_world.py
-    - os: linux
-      language: python
-      dist: xenial
-      arch: amd64
-      script:
-        - python hello_world.py
-    - os: linux
-      language: python
-      dist: bionic
-      arch: amd64
-      script:
-        - python hello_world.py
-    - os: linux
-      language: python
-      dist: focal
-      arch: amd64
-      script:
-        - python hello_world.py
-    - os: linux
-      dist: xenial
-      language: java
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
-    - os: linux
-      language: java
-      dist: xenial
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
-    - os: freebsd
-      language: java
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
-    - os: linux
-      language: java
-      dist: bionic
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
-    - os: linux
-      language: java
-      dist: focal
-      arch: amd64
-      script:
-        - javac hello_world.java
-        - java HelloWorld
-    - os: windows
-      language: cpp
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
-    - os: linux
-      language: cpp
-      dist: xenial
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
-    - os: linux
-      language: cpp
-      dist: bionic
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
-    - os: linux
-      language: cpp
-      dist: focal
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
+#     - os: linux
+#       dist: xenial
+#       language: python
+#       arch: amd64
+#       script:
+#         - python hello_world.py
+#     - os: freebsd
+#       language: python
+#       arch: amd64
+#       script:
+#         - python hello_world.py
+#     - os: linux
+#       language: python
+#       dist: xenial
+#       arch: amd64
+#       script:
+#         - python hello_world.py
+#     - os: linux
+#       language: python
+#       dist: bionic
+#       arch: amd64
+#       script:
+#         - python hello_world.py
+#     - os: linux
+#       language: python
+#       dist: focal
+#       arch: amd64
+#       script:
+#         - python hello_world.py
+#     - os: linux
+#       dist: xenial
+#       language: java
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
+#     - os: linux
+#       language: java
+#       dist: xenial
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
+#     - os: freebsd
+#       language: java
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
+#     - os: linux
+#       language: java
+#       dist: bionic
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
+#     - os: linux
+#       language: java
+#       dist: focal
+#       arch: amd64
+#       script:
+#         - javac hello_world.java
+#         - java HelloWorld
+#     - os: windows
+#       language: cpp
+#       arch: amd64
+#       script:
+#         - g++ hello_world.cpp -o hello_world
+#         - ./hello_world
+#     - os: linux
+#       language: cpp
+#       dist: xenial
+#       arch: amd64
+#       script:
+#         - g++ hello_world.cpp -o hello_world
+#         - ./hello_world
+#     - os: linux
+#       language: cpp
+#       dist: bionic
+#       arch: amd64
+#       script:
+#         - g++ hello_world.cpp -o hello_world
+#         - ./hello_world
+#     - os: linux
+#       language: cpp
+#       dist: focal
+#       arch: amd64
+#       script:
+#         - g++ hello_world.cpp -o hello_world
+#         - ./hello_world
