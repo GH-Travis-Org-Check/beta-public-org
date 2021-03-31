@@ -3,16 +3,15 @@ jobs:
     - os: windows
       language: c
       arch: amd64
-      cache : bundler
       script:
         - clang -coverage -O0 hello_world.c -o hello_world
         - ./hello_world
-#     - os: freebsd
-#       language: c
-#       arch: amd64
-#       script:
-#         - clang -coverage -O0 hello_world.c -o hello_world
-#         - ./hello_world
+    - os: freebsd
+      language: c
+      arch: amd64
+      script:
+        - clang -coverage -O0 hello_world.c -o hello_world
+        - ./hello_world
     - os: linux
       language: c
       dist: xenial
