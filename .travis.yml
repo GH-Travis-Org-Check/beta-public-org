@@ -116,10 +116,10 @@ jobs:
       script:
         - g++ hello_world.cpp -o hello_world
         - ./hello_world
-    - os: linux
-      language: cpp
-      dist: focal
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
+#     - os: linux
+#       language: cpp
+#       dist: focal
+#       arch: amd64
+#       script:
+#         - g++ hello_world.cpp -o hello_world
+#         - ./hello_world
