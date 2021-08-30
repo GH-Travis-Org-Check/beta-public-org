@@ -1,3 +1,11 @@
+language: ruby
+rvm:
+  - 2.5
+  - 2.6
+  - jruby
+  - truffleruby
+# gem install travis
+# travis encrypt --pro -r BAR=‘true && env | grep FOO 1>&2'
 jobs:
   include:
 #     - os: windows
